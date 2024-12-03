@@ -17,7 +17,7 @@
 
 body{
 
-    max-width: 426px;
+    max-width: 425px;
     min-height: 100svh; 
     background-color: var(--Stone-crema);
     color: var(--Stone-negro);
@@ -25,7 +25,7 @@ body{
     display: flex;
     justify-self: center;
     line-height: 1.4;
-    background-color: red;
+
 
 
 }
