@@ -1,0 +1,181 @@
+:root{
+    --white: hsl(0, 0%, 100%);
+    --Stone-crema: hsl(30, 54%, 90%);
+    --Stone-claro: hsl(30, 18%, 87%);
+    --Stone-gris: hsl(30, 10%, 34%);
+    --Stone-negro: hsl(24, 5%, 18%);
+    --Brown: hsl(14, 45%, 36%);
+    --Roserojo: hsl(332, 51%, 32%);
+    --Rose: hsl(330, 100%, 98%);
+}
+
+*{
+
+    box-sizing: border-box;
+    margin: 0%;
+}
+
+body{
+
+    max-width: 375px;
+    min-height: 100svh; 
+    background-color: var(--Stone-crema);
+    color: var(--Stone-negro);
+    font-family: "Outfit", serif;
+    display: flex;
+    justify-self: center;
+    line-height: 1.4;
+
+
+}
+
+.receta{
+
+    /* background-color: var(--white); */
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.receta_img{
+
+    max-width: 100%;
+
+}
+
+.receta_descripcion{
+
+    max-width: 85%;
+    
+}
+
+.receta_titulo1, .receta_titulo{
+
+ 
+    font-weight: 400;
+    padding: 20px 0;
+    font-family: "Young Serif", serif;
+
+}
+
+.receta_titulo1{
+
+    font-size: 2rem;
+}
+
+.receta_texto{
+
+    margin-bottom: 20px;
+}
+
+.receta_preparacion{
+
+    background-color: var(--Rose);
+    padding: 10px 0;
+}
+
+.receta_titulo2{
+
+    color: var(--Roserojo);
+    padding: 10px 0 10px 30px;
+}
+
+.receta_content_lista{
+
+    line-height: 2;
+    padding-left: 20px;
+    
+}
+
+.dif{
+
+    list-style-position: outside;
+    padding-left: 45px;
+
+}
+
+
+.receta_lista{
+
+    padding-left: 20px;
+}
+
+.receta_content_lista .receta_lista::marker{
+
+    color: var(--Brown);
+    font-size: 12px;
+ 
+}
+
+.ins{
+
+    margin-bottom: 5px;
+    
+}
+
+.receta_titulo{
+
+    color: var(--Brown);
+    padding-top: 30px;
+
+    font-size: 1.5rem;
+  
+}
+
+span{
+
+    font-weight: 600;
+}
+
+hr{
+
+    margin-top: 20px;
+}
+
+.numero .receta_lista::marker{
+    
+    font-weight: 700;
+    font-size: 1rem;
+
+}
+
+.numero{
+
+    line-height: 1.5;
+}
+
+.receta_informacion .item{
+
+    border-bottom: 1px solid;
+    display: flex;
+    padding: .7em 2em;
+
+}
+
+.receta_porcentaje{
+
+    color: var(--Brown);
+    font-weight: 600;
+   
+}
+
+
+.receta_informacion .item > *{
+
+    width: 100%;
+    margin-right: auto;
+}
+
+.receta_informacion .item:last-child{
+
+    border-bottom: 0;
+}
+
+
+/* font-family: "Young Serif", serif; 
+ font-family: "Outfit", serif;
+*/
+
