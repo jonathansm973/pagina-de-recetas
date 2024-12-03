@@ -25,6 +25,7 @@ body{
     display: flex;
     justify-self: center;
     line-height: 1.4;
+    justify-content: center;
 
 
 
@@ -56,7 +57,7 @@ body{
 .receta_titulo1, .receta_titulo{
 
  
-    font-weight: 400;
+    font-weight: 900;
     padding: 20px 0;
     font-family: "Young Serif", serif;
 
@@ -186,13 +187,14 @@ hr{
 
     body{
 
-        max-width: 75%;
-        padding: 10% 0;
+        padding: 5% 0;
+        width: 90%;
+        max-width: 768px;
     }
     .receta{
 
-        height: fit-content(100vh);
-        border-radius: 10px;
+
+        border-radius: 20px;
         padding: 25px 0;
 
     }
@@ -208,4 +210,29 @@ hr{
         max-width: 90%;
         
     }
+
+    .receta_titulo1{
+
+        font-size: 3rem;
+    }
+
+    .receta_titulo{
+
+        font-size: 2.5rem;
+      
+    }
+    .receta_lista, .receta_texto, .item{
+    
+        font-size: 1.8rem;
+    
+    }
+
+    .receta_titulo2{
+
+        font-size: 2rem;
+
+    }
+
+
+    
 }
