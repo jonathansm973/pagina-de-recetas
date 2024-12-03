@@ -211,28 +211,5 @@ hr{
         
     }
 
-    .receta_titulo1{
-
-        font-size: 3rem;
-    }
-
-    .receta_titulo{
-
-        font-size: 2.5rem;
-      
-    }
-    .receta_lista, .receta_texto, .item{
-    
-        font-size: 1.8rem;
-    
-    }
-
-    .receta_titulo2{
-
-        font-size: 2rem;
-
-    }
-
-
     
 }
