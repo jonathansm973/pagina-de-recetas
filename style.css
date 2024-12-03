@@ -25,6 +25,7 @@ body{
     display: flex;
     justify-self: center;
     line-height: 1.4;
+    background-color: red;
 
 
 }
