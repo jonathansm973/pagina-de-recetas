@@ -193,13 +193,19 @@ hr{
 
         height: fit-content(100vh);
         border-radius: 10px;
-        margin: 10px;
         padding: 25px 0;
 
     }
     .receta_img{
 
         max-width: 90%;
+        margin: 10px 0;
         border-radius: 10px;
+    }
+
+    .receta_descripcion{
+
+        max-width: 90%;
+        
     }
 }
