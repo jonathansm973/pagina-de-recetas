@@ -23,11 +23,7 @@ body{
     color: var(--Stone-negro);
     font-family: "Outfit", serif;
     display: flex;
-    justify-self: center;
     line-height: 1.4;
-    justify-content: center;
-
-
 
 }
 
@@ -190,13 +186,13 @@ hr{
         padding: 5% 0;
         width: 90%;
         max-width: 768px;
+        margin: 0 auto;
     }
     .receta{
 
 
         border-radius: 20px;
         padding: 25px 0;
-        margin: 0 auto;
 
     }
     .receta_img{
