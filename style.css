@@ -17,19 +17,20 @@
 
 body{
 
-    max-width: 425px;
+    
     min-height: 100svh; 
     background-color: var(--Stone-crema);
     color: var(--Stone-negro);
     font-family: "Outfit", serif;
     display: flex;
     line-height: 1.4;
+    justify-content: center;
 
 }
 
 .receta{
-
-    /* background-color: var(--white); */
+    
+    max-width: 1200px;
     background-color: var(--white);
     display: flex;
     flex-direction: column;
@@ -188,6 +189,8 @@ hr{
         height: 100%;
         max-width: 700px;
         margin: 0 auto;
+
+
     }
     .receta{
 
@@ -195,6 +198,7 @@ hr{
         border-radius: 20px;
         padding: 25px 0;
         height: 100%;
+        justify-items: center;
 
     }
     .receta_img{
@@ -209,6 +213,7 @@ hr{
         max-width: 90%;
         
     }
+
 
     
 }
